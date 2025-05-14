@@ -1,0 +1,22 @@
+.footer {
+  background-color: #fff;
+  padding: 30px 20px;
+  margin-top: 40px;
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dark .footer {
+  background-color: #2d2d2d;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.footer-content p {
+  margin: 0.5rem 0;
+}
