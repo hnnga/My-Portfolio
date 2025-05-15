@@ -29,7 +29,9 @@ function App() {
                 />
                 <div className="section-content">
                   <p>
-                    My name is Huỳnh Nga. I am a third-year Computer Science student with experience in software development, particularly in web technologies, database management, and AI research. Through academic projects and research activities, I have developed a strong passion for frontend development, where I enjoy crafting intuitive user experiences and visually appealing interfaces.
+                    My name is Huỳnh Nga. I am a third-year Computer Science student. Through academic projects and research activities, I have gained hands-on experience in software development, 
+                    particularly in web technologies, database management, and AI research. I am passionate about learning new technologies and contributing to impactful, user-focused solutions.
+                    
                   </p>
                   <ul className="list">
                     <li><strong>GPA</strong>: 3.0/4.0 (7.5/10)</li>
