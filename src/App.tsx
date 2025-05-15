@@ -29,7 +29,7 @@ function App() {
                 />
                 <div className="section-content">
                   <p>
-                    I am Huynh Nga, a third-year Computer Science student at Ho Chi Minh City University of Technology (HCMUT). With a passion for frontend development, I enjoy crafting intuitive user experiences and visually appealing interfaces. My experience spans web technologies, database management, and AI research, particularly in diffusion models and large language models.
+                    My name is Huỳnh Nga. I am a third-year Computer Science student with experience in software development, particularly in web technologies, database management, and AI research. Through academic projects and research activities, I have developed a strong passion for frontend development, where I enjoy crafting intuitive user experiences and visually appealing interfaces.
                   </p>
                   <ul className="list">
                     <li><strong>GPA</strong>: 3.0/4.0 (7.5/10)</li>
@@ -47,18 +47,25 @@ function App() {
               <div className="section-content">
                 <div className="education-item">
                   <h3 className="section-subtitle">
-                    Ho Chi Minh City University of Technology (HCMUT)
+                    Ho Chi Minh City University of Technology, Vietnam National University Ho Chi Minh City (HCMUT - BACH KHOA HCMC)
                   </h3>
+                  <a href="https://hcmut.edu.vn/" className="link" >https://hcmut.edu.vn/ </a>
                   <p className="text-muted">Oct 2022 – Present | Computer Science, 3rd Year</p>
                   <p>GPA: 3.0/4.0 (7.5/10)</p>
-                  <p>
-                    Courses: Software Engineering, Database Systems, Operating Systems, Data Structures and Algorithms, Advanced Programming
-                  </p>
+                  <ul className="list">
+                    <li><strong>Software Engineering</strong>: Agile methodologies, system modeling, use case and requirements analysis, software architecture design.</li>
+                    <li><strong>Database Systems</strong>: Relational databases, SQL, normalization, indexing, query optimization.</li>
+                    <li><strong>Operating Systems</strong>: Linux command-line operations, shell scripting, process & file management.</li>
+                    <li><strong>Data Structures and Algorithms</strong>: Data structures, algorithm design, complexity analysis.</li>
+                    <li><strong>Advanced Programming</strong>: Functional programming, higher-order functions, recursion.</li>
+                  </ul>
                 </div>
                 <div className="education-item">
                   <h3 className="section-subtitle">
-                    Experimental High School, HCMC University of Education
+                    Experimental High School, Ho Chi Minh City University of Education (TRUNG HOC THUC HANH SU PHAM)
                   </h3>
+                  <a href="http://trunghocthuchanhdhsp.edu.vn/" className="link" >http://trunghocthuchanhdhsp.edu.vn/</a>
+                  
                   <p className="text-muted">Aug 2019 – May 2022</p>
                   <p>GPA: 9.1/10</p>
                 </div>
@@ -74,28 +81,41 @@ function App() {
                   <h3 className="section-subtitle">
                     Unlimited Research Group of AI (URA), HCMUT – Member
                   </h3>
+                  <a href="https://www.ura.hcmut.edu.vn/" className="link" >https://www.ura.hcmut.edu.vn/</a>
                   <p className="text-muted">May 2024 – Present</p>
+                  <em>URA is a research group founded by Assoc. Prof. Quan Thanh Tho, the group focuses on AI research, covering both theoretical studies and practical applications in NLP, Computer Vision, Speech Processing, and Time Series data.</em>
+                    <br></br>
+                    Main roles:
                   <ul className="list">
                     <li>
-                      Researched Diffusion Models for Virtual Try-On project, improving garment warping and body alignment.
+                      Researched Diffusion Models for the Virtual Try-On project (see in <a href="#projects" className="link"> Projects</a>), aiming to generate realistic clothing try-on images by improving garment warping, texture preservation, and body alignment.
                     </li>
                     <li>Explored Large Language Models (LLMs).</li>
                   </ul>
                 </div>
                 <div className="experience-item">
                   <h3 className="section-subtitle">HCMC AI Challenge 2024 – Participant</h3>
+                  <a href="https://aichallenge.hochiminhcity.gov.vn/" className="link" >https://aichallenge.hochiminhcity.gov.vn/</a>
+                  
                   <p className="text-muted">Aug 2024 – Oct 2024</p>
+                  <em>HCMC AI Challenge is a competition where participants develop AI algorithms to solve real-world problems for Ho Chi Minh City. The 2024 challenge focuses on event retrieval from videos.
+                  </em>
+                    <br></br>
+                    Main roles:
                   <ul className="list">
-                    <li>Developed event retrieval system using TransNet and OpenAI’s CLIP features.</li>
+                    <li>Worked in a team of 5 to develop event retrieval system using TransNet and OpenAI’s CLIP features.</li>
                     <li>Implemented OCR-based and text-prompt search functionalities.</li>
+                    <li>Qualified to the final round.</li>
                   </ul>
                 </div>
                 <div className="experience-item">
                   <h3 className="section-subtitle">AI Summer School, HCMUT – Mentor</h3>
                   <p className="text-muted">Jul 2024</p>
+                  <em>AI Summer School is a structured hackathon framework featuring interactive lectures and a guided competition to help high school students build LLM-powered applications within 24 hours.
+                  </em>
                   <ul className="list">
                     <li>
-                      Guided high school students in fine-tuning LLMs using Low-Rank Adaptation for healthcare applications.
+                      Instructed high school students in building a healthcare-focused LLM by fine-tuning a pre-trained model using the <a href="https://openreview.net/forum?id=nZeVKeeFYf9" className="link" >Low-Rank Adaptation</a> technique, including dataset creation and model fine-tuning, as well as model deployment.
                     </li>
                   </ul>
                 </div>
@@ -112,27 +132,67 @@ function App() {
                     Adaptive Mask Refinement for Virtual Try-On Models
                   </h3>
                   <p className="text-muted">Oct 2024 – Feb 2025</p>
-                  <p>
-                    Developed an adaptive mask refinement mechanism using diffusion models and attention-based U-Net to enhance realism in virtual try-on systems.
-                  </p>
-                  <p>Skills: Python, Git, Deep Learning, Computer Vision, Agile</p>
+                  <em>Virtual try-on is a technology that enables users to visualize how garments fit onto a person’s image, 
+                    enhancing the online shopping experience by generating realistic try-on results.</em>
+                    <br></br>
+                    Main roles:
+                  <ul className="list">
+                    <li>
+                      Researched diffusion models, U-Net architectures, and attention mechanisms to improve virtual try-on model realism.
+                    </li>
+                    <li>Collaborated on developing an adaptive mask refinement mechanism and integrating it into other virtual try-on models, reducing computational complexity using attention-based U-Net while maintaining high-quality garment alignment and human feature preservation.
+                    </li>
+                    <li> Paper Auto-ARM: An Autonomous Adaptive Mask Refinement Mechanism for Enhancing
+                        Naturalness in Virtual Try-On Models get accepted at <a href="https://cita.vku.udn.vn/" className="link" >CITA 2025</a>.
+                    </li>
+                  </ul>
+                  <p><strong>Skills:</strong> Python, Git, Deep Learning, Computer Vision, Agile</p>
                 </div>
                 <div className="project-item">
                   <h3 className="section-subtitle">Student Smart Printing Service</h3>
                   <p className="text-muted">Sep 2024 – Dec 2024</p>
-                  <p>
-                    Designed and developed a web-based printing service for HCMUT students, focusing on frontend development with ReactJs.
-                  </p>
-                  <p>Skills: ReactJs, TypeScript, CSS, Figma, Waterfall</p>
+                    <a href="https://github.com/namhk4311/CO3001-SSPS.git" className="link" >View Source code</a>
+
+                  <ul className="list">
+                    <li>
+                      Worked in a team of five for a Software Engineering course project at university to design and develop a smart printing service for HCMUT students, covering requirement analysis, system modeling, architecture design, and implementation.
+                    </li>
+                    <li>Built and deployed a web-based application, with my main role is developing frontend using ReactJs by implementing key features such as printer management and document printing.</li>
+                  </ul>
+                  <p><strong>Skills:</strong> ReactJs, TypeScript, CSS, Figma, git, Waterfall proccess.</p>
+                  These are some UI pictures of this project:
+                  <div className="skills-images">
+                  <img
+                    src="/images/print-dashboard.png"
+                    alt="Skill Image 1"
+                    className="skill-image"
+                  />
+                  <img
+                    src="/images/print-print-properties.png"
+                    alt="Skill Image 2"
+                    className="skill-image"
+                  />
+                  <img
+                    src="/images/print-manage-printer.png"
+                    alt="Skill Image 2"
+                    className="skill-image"
+                  />
+                </div>
+
+
                 </div>
                 <div className="project-item">
                   <h3 className="section-subtitle">Hotpot Restaurant Database Management System</h3>
                   <p className="text-muted">Feb 2024 – May 2024</p>
-                  <p>
-                    Designed and implemented a relational database schema for a hotpot restaurant using MySQL.
-                  </p>
-                  <p>Skills: MySQL, Database Design</p>
+                  <ul className="list">
+                    <li>
+                      Worked in a team of four for a Database System course project at university to design an enhanced entity relationship diagram and relational database schema for a hotpot restaurant management system.
+                    </li>
+                    <li>Developed and implemented the database using MySQL.</li>
+                  </ul>
+                  <p><strong>Skills:</strong> MySQL, database design, group-working.</p>
                 </div>
+                
               </div>
             }
           />
@@ -145,7 +205,7 @@ function App() {
                   <h3 className="section-subtitle">Technical Skills</h3>
                   <ul className="list">
                     <li>Programming: Python, TypeScript, C++, CSS, SQL</li>
-                    <li>Frontend: ReactJs, DOM Manipulation</li>
+                    <li>DOM Manipulation: ReactJs</li>
                     <li>Database: MySQL, Database Design</li>
                     <li>Architecture: Functional Programming, OOP, Design Patterns</li>
                     <li>Tools: Git, Visual Studio Code, Figma</li>
@@ -173,7 +233,7 @@ function App() {
                 <p>Email: <a href="mailto:huynhnga9124@gmail.com" className="link">huynhnga9124@gmail.com</a></p>
                 <p>Phone: (+84) 932 071 394</p>
                 <p>
-                  Connect with me: <a href="https://www.linkedin.com/in/huynh-nga" className="link">LinkedIn</a>
+                  Linkedin: <a href="https://www.linkedin.com/in/nga-huynh-316928328/" className="link">Nga Huynh</a>
                 </p>
               </div>
             }
